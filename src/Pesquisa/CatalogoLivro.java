@@ -61,10 +61,5 @@ public class CatalogoLivro {
         catalogoLivro.adicionarLivro("livro5","Roberto",2010);
 
         System.out.println(catalogoLivro.pesquisaPorTitulo("livo"));
-
-
-
-
-
     }
 }
