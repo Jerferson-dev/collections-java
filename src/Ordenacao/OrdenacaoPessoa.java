@@ -20,7 +20,7 @@ public class OrdenacaoPessoa {
     }
     public List<Pessoa> ordenarPorAltura (){
         List<Pessoa> pessoasPorAltura = new ArrayList<>(pessoalist);
-        Collections.sort(pessoasPorAltura, new ComparatrPorAltura());
+        Collections.sort(pessoasPorAltura, new CompararPorAltura());
         return pessoasPorAltura;
     }
 
